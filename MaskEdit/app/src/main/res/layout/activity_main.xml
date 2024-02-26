@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:text="Credit Card Number"/>
+            <com.vicmikhailau.maskededittext.MaskedEditText
+                android:id="@+id/edtCreditCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:hint="0000 0000 0000 0000"
+                android:textColor="@android:color/black"
+                android:inputType="number"
+                app:mask="#### #### #### ####" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Phone Number"
+                />
+            <com.vicmikhailau.maskededittext.MaskedEditText
+                android:id="@+id/edtPhoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:hint="Phone Number"
+                android:textColor="@android:color/black"
+                android:inputType="number"
+                app:mask="(###)-###-####" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btn"
+                android:text="Press Me"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SpinnerInKotlin</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Dart</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JavaScript</item>
+    </string-array>
+</resources>
